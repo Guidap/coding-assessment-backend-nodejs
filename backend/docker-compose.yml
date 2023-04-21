@@ -30,4 +30,4 @@ services:
     environment:
       NODE_ENV: development
       DATABASE_URL: postgresql://user:password@postgres:5432/database?serverVersion=12.14
-    command: "npm run start:debug"
+    command: "npm run start:dev"
